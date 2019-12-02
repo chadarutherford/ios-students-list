@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6341D4C423957D0F00296849 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6341D4C523957D1F00296849 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6341D4C523957D1F00296849 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9D59B90B211812FA002FB7CD /* Main.storyboard */,
+				9D59B910211812FA002FB7CD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6341D4C623957D2F00296849 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE1629E022B7F67700BB5CA1 /* View Controllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9D59B8FB211812F9002FB7CD = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +85,9 @@
 		9D59B906211812F9002FB7CD /* Students */ = {
 			isa = PBXGroup;
 			children = (
-				9D59B907211812F9002FB7CD /* AppDelegate.swift */,
 				9D59B92221181364002FB7CD /* Model */,
-				CE1629E022B7F67700BB5CA1 /* View Controllers */,
+				6341D4C423957D0F00296849 /* View */,
+				6341D4C623957D2F00296849 /* Controller */,
 				9D59B91921181300002FB7CD /* Resources */,
 			);
 			path = Students;
@@ -71,9 +96,8 @@
 		9D59B91921181300002FB7CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D59B90B211812FA002FB7CD /* Main.storyboard */,
+				9D59B907211812F9002FB7CD /* AppDelegate.swift */,
 				9D59B90E211812FA002FB7CD /* Assets.xcassets */,
-				9D59B910211812FA002FB7CD /* LaunchScreen.storyboard */,
 				9D59B913211812FA002FB7CD /* Info.plist */,
 				CEC62F132289BE35007ED0C5 /* students.json */,
 			);
